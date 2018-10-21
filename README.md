@@ -4,18 +4,18 @@
 
 Download and install the latest *Node.js* version:
 - `curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -`
-- `sudo apt install -y nodejs` \
+- `sudo apt install -y nodejs` 
 
 ### Server Only
 
-The smartmirror is automatically set to server only mode. \
-1. Download the files and navigate to the folder in terminal
+The smartmirror is automatically set to server only mode. 
+1. Download the files and navigate to the root folder in terminal
 2. Install and run the app with: `npm install && node serveronly` 
 
 
 ### Raspberry Pi
 
-1. Download the files and navigate to the folder in terminal
+1. Download the files and navigate to the root folder in terminal
 2. Navigate to config.js and change these lines:
 
 ```javascript
